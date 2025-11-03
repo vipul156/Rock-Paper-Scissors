@@ -50,7 +50,7 @@ function Game() {
                 <div className='flex flex-col items-center gap-15 pointer-events-none order-1'>
                     YOU PICKED
                     <div className='flex justify-center items-center'>
-                        {result === 'YOU WIN' ? <div className='size-[150px] md:size-[300px]'><Ring /></div> : ""}
+                        {result === 'YOU WIN' ? <div className='absolute size-[300px] md:size-[520px]'><Ring /></div> : ""}
                         <div className='size-[150px] md:size-[300px]'>
                         <Element item={userChoice} />
                         </div>
