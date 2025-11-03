@@ -8,15 +8,15 @@ function Start() {
   return (
     <div className='flex justify-center items-center pt-17'>
         <div>
-            <Image src={Triangle} alt='logo' width={300} height={300}/>
+            <Image className='size-[200px] sm:size-[300px]'src={Triangle} alt='logo'/>
         </div>
         <div className='absolute flex  flex-col justify-center items-center'>
-            <div className='flex justify-between sm:w-[400px] pb-10'>
-                <Element size={75} item={0}/>
-                <Element size={75} item={1}/>
+            <div className='flex gap-10 sm:gap-20 sm:pb-10 pb-5'>
+                <div className='size-[150px] sm:size-[200px]'><Element item={0}/></div>
+                <div className='size-[150px] sm:size-[200px]'><Element item={1}/></div>
             </div>
-            <div className=''>
-                <Element size={75} item={2}/>
+            <div className='size-[150px] sm:size-[200px]'>
+                <Element item={2}/>
             </div>
         </div>
     </div>
